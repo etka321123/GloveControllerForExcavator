@@ -68,7 +68,7 @@ void loop() {
  
   if(x[3] == 1)  // DÜZ GİTME
   {
-    pwm.setPWM(servonum11, 0,pulseWidth(120));   //ileri
+    pwm.setPWM(servonum11, 0,pulseWidth(120));   //ileri //deneme
     pwm.setPWM(servonum10, 0, pulseWidth(60));  // ileri
   }
   if(x[3] == 2)  // GERİ GİTME
